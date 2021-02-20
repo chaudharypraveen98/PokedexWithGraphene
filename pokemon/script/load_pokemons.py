@@ -17,9 +17,5 @@ def run(*args):
             pokemon_id=pokemon["pokemon_id"],
             pokemon_image_url=pokemon["pokemon_image_url"]
         )
-        for pokemon_tag in pokemon["pokemon_tags"]:
-            PokemonTag.objects.get_or_create(
-                tag=pokemon_tag,
-                pokemon=pokemon_obj
-            )
+        pokemon_obj.pokemon_tag.add(*list(PokemonTag.objects.get_or_create(tag=pokemon)[0].id for pokemon in pokemon['pokemon_tags']))
         print(pokemon_obj.pokemon_id)
