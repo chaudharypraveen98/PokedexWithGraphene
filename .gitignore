@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\bashi\Videos\Projects\PycharmProjects\PokedexWithGraphene\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
+/pokemon/__pycache__
+/pokemon/migrations
+/PokedexWithGraphene/__pycache__
+/db.sqlite3

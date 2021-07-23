@@ -1,0 +1,33 @@
+body {
+  background-image: repeating-linear-gradient(135deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(210,79%,75%,0.05) 0px, hsla(210,79%,75%,0.05) 1px,transparent 1px, transparent 11px,hsla(210,79%,75%,0.05) 11px, hsla(210,79%,75%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(83, 220, 200),rgb(58, 78, 174));
+}
+
+.head {
+  text-align: center;
+  color: #071e3d;
+}
+.pokemon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pokemon-container>div{
+  max-width: 300px;
+}
+.pokemon-card{
+  border: #1f4287 2px solid;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 25px;
+}
+.pokemon-body{
+  padding: 15px;
+}
+.pokemon-button{
+  color: white;
+  background-color: #278ea5;
+  padding: 8px 12px;
+  border-radius: 15px;
+}
